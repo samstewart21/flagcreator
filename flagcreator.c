@@ -1,4 +1,4 @@
-/* Flag Creator v1.01
+/* Flag Creator v0.2
    Author: Sam Stewart 
    8/5/2019 
 */
@@ -22,7 +22,7 @@ int main (void)
    FILE *outputfile;
    unsigned char a=205, b=42,c=62,d=255,e=67,f=111,g=77; 
 
-   printf("Flag Creator v1.01\n");
+   printf("Flag Creator v0.2\n");
    printf("\n");
    printf("This program is licensed under the GNU General Public License v3.0");
    printf("\n");
