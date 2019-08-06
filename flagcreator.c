@@ -1,4 +1,9 @@
+/* Flag Creator v1.01
+   Author: Sam Stewart 
+   8/5/2019 
+*/
 #include<stdio.h>
+#include <stdlib.h>
 
 //Function to calculate the height 
 int flagheight (int width)
@@ -10,11 +15,25 @@ int flagheight (int width)
    return height;
 }
 
+
 int main (void)
 {
-   int i,j,width,height;
+   int i,j,width,height,gnu;
    FILE *outputfile;
    unsigned char a=205, b=42,c=62,d=255,e=67,f=111,g=77; 
+
+   printf("Flag Creator v1.01\n");
+   printf("\n");
+   printf("This program is licensed under the GNU General Public License v3.0");
+   printf("\n");
+   printf("Flag Creator Copyright (C) 2019 Sam Stewart\n");
+   printf("This program comes with ABSOLUTELY NO WARRANTY.\n");
+   printf("This is free software, and you are welcome to redistribute it under certain conditions.\n");
+   printf("The full GNU license can be found in the license.txt file.\n");
+   printf("\n \n");
+   
+   
+
    //Opens file
    outputfile=fopen("hungaryflag.ppm","w");
    
@@ -81,7 +100,8 @@ int main (void)
    fclose(outputfile);
    
    //Prints file name to screen 
-   fprintf(stderr,"hungaryflag.ppm\n");
+   fprintf(stderr,"hungaryflag.ppm has been created. To view the image open the .ppm file with GIMP.\n");
    
    return 0;
 }
+
