@@ -1,4 +1,4 @@
-flagcreator.c
+flagcreator.c v0.2
 Author: Sam Stewart 
 Creates a Hungarian flag .ppm image file 
 Program is licensed under the GNU General Public License v. 3.0 
