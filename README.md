@@ -1,5 +1,5 @@
 # Hungarian Flag Creator
-Creates a Hungarian flag .ppm image file 
+Generates a .ppm image file of a Hungarian Flag
 # Download
 You can download a .tar file of the program here:https://github.com/samstewart21/flagcreator/releases/
 
